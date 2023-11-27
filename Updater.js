@@ -11,7 +11,7 @@
 (function() {
     'use strict';
     function updateScore() {
-        var scoreElement = document.querySelector('span.total-score-value.cb-roboto.cb-font-weight-bold.cb-spacerh-right-8[data-qc-id="ds-tot-score"]');
+        var scoreElement = document.querySelector('p.cb-no-margin span.total-score-value[data-qc-id="ds-tot-score"]');
         scoreElement.innerText = '1520'; // Change this to change total score
 
         var readingWritingElement = document.querySelector('span.section-score-value.cb-padding-top-8.cb-font-weight-bold.cb-spacerh-right-8[data-qc-id="ds-Reading and Writing-score"]');
