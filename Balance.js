@@ -15,6 +15,7 @@
         let balanceElement = document.querySelector('.balanceTransfer_balance__SuGaU');
         if (balanceElement) {
         balanceElement.innerText = '$250.00';
+        }
     }
     var checkInterval = setInterval(main, 0)
 })();
