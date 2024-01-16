@@ -11,8 +11,11 @@
 
 (function() {
     'use strict';
-    let balanceElement = document.querySelector('.balanceTransfer_balance__SuGaU');
-    if (balanceElement) {
+    function main() {
+        let balanceElement = document.querySelector('.balanceTransfer_balance__SuGaU');
+        if (balanceElement) {
         balanceElement.innerText = '$250.00';
     }
+    var checkInterval = setInterval(main, 0)
 })();
+
