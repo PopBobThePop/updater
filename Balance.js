@@ -4,7 +4,7 @@
 // @version      2024-01-16
 // @description  Change Venmo Balance
 // @author       You
-// @match        https://account.venmo.com/u/Donghyun-Won-2
+// @match        https://account.venmo.com/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
